@@ -27,9 +27,9 @@ if (isLocalhost()) {
 } else {
     // === CONFIGURATION PLESK (PRODUCTION) ===
     define('DB_HOST', 'localhost');
-    define('DB_NAME', 'sadio-kanoute_livreor');  // Votre nom de base Plesk
-    define('DB_USER', 'sadio-livreor');          // Votre utilisateur Plesk
-    define('DB_PASS', 'Adama@1974@');   // À MODIFIER avec votre mot de passe
+    define('DB_NAME', 'sadio-kanoute_livreor');  
+    define('DB_USER', 'sadio-livreor');          
+    define('DB_PASS', 'Adama@1974@');   
     define('ENVIRONMENT', 'PLESK');
     
     // Mode production : masquer les erreurs
@@ -43,7 +43,7 @@ define('APP_NAME', 'Livre d\'Or');
 define('APP_VERSION', '1.0.0');
 define('SESSION_TIMEOUT', 3600); // 1 heure
 
-// Début de session si pas encore démarré
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }

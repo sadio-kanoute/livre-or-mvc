@@ -30,7 +30,7 @@
     </main>
     <footer>
         <p>&copy; 2025 Mon Livre d'Or - 
-        <a href="https://github.com/votre-nom/livre-or" target="_blank">Voir sur GitHub</a></p>
+        <a href="https://github.com/sadio-kanoute/livre-or-mvc" target="_blank">Voir sur GitHub</a></p>
     </footer>
 </body>
 </html>
