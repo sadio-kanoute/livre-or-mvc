@@ -29,7 +29,7 @@ if (isLocalhost()) {
     define('DB_HOST', 'localhost');
     define('DB_NAME', 'sadio-kanoute_livreor');  
     define('DB_USER', 'sadio-livreor');          
-    define('DB_PASS', 'VOTRE_MOT_DE_PASSE_PLESK');   // À MODIFIER après upload
+    define('DB_PASS', 'VOTRE_MOT_DE_PASSE_PLESK');   
     define('ENVIRONMENT', 'PLESK');
     
     // Mode production : masquer les erreurs
