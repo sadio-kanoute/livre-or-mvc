@@ -1,0 +1,13 @@
+<?php
+require_once 'config.php';
+require_once 'includes/functions.php';
+
+// Charger les models
+loadModels();
+
+// Charger le contrôleur Auth
+loadController('AuthController');
+
+// Appeler le contrôleur
+loginController();
+?>
